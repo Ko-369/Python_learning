@@ -1,0 +1,50 @@
+# ==================== Python 相关 ====================
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境（所有常见命名）
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# 环境变量与密钥文件（防止泄露敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 打包与构建产物
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ==================== 编辑器/IDE 相关 ====================
+# PyCharm 配置目录
+.idea/
+*.iml
+
+# VSCode 配置（备用）
+.vscode/
+
+# ==================== 测试与覆盖率 ====================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==================== 日志与临时文件 ====================
+*.log
+logs/
+*.tmp
+*.bak
+*.cache
+
+# macOS 系统缓存文件
+.DS_Store
